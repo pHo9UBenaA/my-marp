@@ -1,0 +1,30 @@
+/* @theme 20250920_dark-theme */
+
+@import "20250920_base-theme";
+
+:root {
+  /* Base & neutrals (dark) */
+  --color-text: #e6e6e6; /* High-contrast body copy */
+  --color-footer: #a6a6a6; /* Mid-tone for secondary info */
+  --color-graphite-gray: #8a8a8a; /* Dividers/supporting text that stay legible */
+  --color-pure-white: #0f1115; /* Repurposed as the near-black background */
+  --color-absolute-black: #000000;
+  --color-off-white: #dcdcdc; /* Soft highlight accents on dark */
+
+  /* Accents (split-complementary brights) */
+  --color-deep-navy: #82aaff; /* accent1: bright cobalt anchoring the split complement */
+  --color-cobalt-blue: #6ca5ff; /* accent2 */
+  --color-cerulean: #74cfe0; /* accent3 */
+  --color-emerald: #7cdba8; /* accent4 */
+  --color-amber: #ffb65c; /* accent5: warm branch of the complement */
+  --color-fuchsia: #ff73c9; /* accent6: cool-leaning pink on the complementary arc */
+
+  /* Links (dark but readable on near-black) */
+  --color-link-blue: #7fc2ff; /* hlink: boosted-contrast blue */
+  --color-visited-purple: #c89aff; /* folHlink: legible lilac for visited state */
+
+  /* Theme-specific hooks */
+  --lead-span-opacity: 0.95;
+  --color-code-bg: hsl(220, 8%, 20%);
+  --color-figcaption-text: var(--color-off-white);
+}

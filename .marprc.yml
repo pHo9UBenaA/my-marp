@@ -1,0 +1,7 @@
+inputDir: ./src/docs/
+output: ./dist/
+
+themeSet:
+  - ./src/themes/*.css
+
+allowLocalFiles: true

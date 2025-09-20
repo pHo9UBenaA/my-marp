@@ -1,0 +1,29 @@
+/* @theme 20250920_light-theme */
+
+@import "20250920_base-theme";
+
+:root {
+  /* Base palette (light) */
+  --color-text: #2f2f2f;
+  --color-footer: #969696;
+  --color-graphite-gray: #5e5e5e;
+  --color-pure-white: #ffffff;
+  --color-absolute-black: #000000;
+  --color-off-white: #feffff;
+
+  /* Accents */
+  --color-deep-navy: #1b2756; /* accent1 */
+  --color-cobalt-blue: #2368ab; /* accent2 */
+  --color-cerulean: #2495c7; /* accent3 */
+  --color-emerald: #00a770; /* accent4 */
+  --color-amber: #eaa41f; /* accent5 */
+  --color-fuchsia: #d71582; /* accent6 */
+
+  /* Links */
+  --color-link-blue: #0066a5; /* hlink */
+  --color-visited-purple: #8b2c64; /* folHlink */
+
+  /* Theme-specific hooks */
+  --color-code-bg: hsl(0, 0%, 90%);
+  --color-figcaption-text: var(--color-pure-white);
+}
