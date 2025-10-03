@@ -1,4 +1,28 @@
+catalog:
+  '@biomejs/biome': 2.2.4
+  '@marp-team/marp-cli': 4.2.3
+
+catalogMode: strict
+
+cleanupUnusedCatalogs: true
+
+engineStrict: true
+
+linkWorkspacePackages: true
+
 minimumReleaseAge: 10080
 
 overrides:
   tar-fs@>=3.0.0 <3.1.1: '>=3.1.1'
+
+packageManagerStrictVersion: true
+
+preferWorkspacePackages: true
+
+resolutionMode: time-based
+
+savePrefix: ''
+
+strictDepBuilds: true
+
+strictPeerDependencies: true

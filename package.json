@@ -16,7 +16,7 @@
     "fix:check": "biome check --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.4",
-    "@marp-team/marp-cli": "^4.2.3"
+    "@biomejs/biome": "catalog:",
+    "@marp-team/marp-cli": "catalog:"
   }
 }
